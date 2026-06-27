@@ -43,7 +43,7 @@ export default {
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Points when completed</div>
+                            <div class="type-title-sm">클리어 시 점수</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
@@ -51,13 +51,13 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <div class="type-title-sm">비밀번호</div>
+                            <p>{{ level.password || '복사 가능' }}</p>
                         </li>
                     </ul>
-                    <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
+                    <h2>기록</h2>
+                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> 혹은 더 높은 퍼센트로 등재</p>
+                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> 혹은 더 높은 퍼센트로 등재</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
@@ -98,30 +98,30 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3>Submission Requirements</h3>
+                    <h3>신청 조건</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        핵쓰지 말다 💀
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        FPS는 60이상, 360이하만 가능한
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        ID가 없다면 엔도에게 파일 받다 <a href="https://youtu.be/JA_oCf6-ne4?si=3dN06IhpJbbXRd95" target="_blank" rel="noopener noreferrer">파일 쓰는 법</a>
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
+                        치트 인디케이터 + 클릭, 탭 소리 필요하다
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        ㅉㅍ 우주영국도 아닌데 law footage까지 넣어야할까 그냥 클리어 영상만 보내다 (100% 가기 전에 짜르지 말다)
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        밀길은 ㄴㄴ
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
+                        TPS Bypass 핵임 쓰지 마셈
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                        CBF, CBS는 되는
                     </p>
                 </div>
             </div>

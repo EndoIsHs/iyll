@@ -1,27 +1,12 @@
 [
     {
         "role": "owner",
-        "name": "List Owner",
+        "name": "리스트 주인",
         "link": "https://www.youtube.com/@%EA%B2%8C"
     },
     {
-        "role": "admin",
-        "name": "List Admin",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
-    },
-    {
-        "role": "helper",
-        "name": "List Helper",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
-    },
-    {
-        "role": "trial",
-        "name": "Trial List Helper",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
-    },
-    {
-        "role": "dev",
-        "name": "List Coder",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "role": "owner",
+        "name": "황모",
+        "link": "https://www.youtube.com/@midnasoP"
     }
 ]

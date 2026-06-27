@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=1024" />
-        <title>YH Impossible Levels List</title>
+        <title>불가능 황모 레벨 리스트</title>
 
         <!-- Replace your server icon by uploading an image file named "list_icon.png"-->
         <link rel="icon" href="/list_icon.png" />
@@ -37,18 +37,18 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
-                <h2>YILL</h2>
+                <h2>IYLL</h2>
                 <p>v1.0.0</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
-                    <span class="type-label-lg">List</span>
+                    <span class="type-label-lg">리스트</span>
                 </router-link>
                 <router-link class="nav__tab" to="/leaderboard">
-                    <span class="type-label-lg">Leaderboard</span>
+                    <span class="type-label-lg">리더보드</span>
                 </router-link>
                 <router-link class="nav__tab" to="/roulette">
-                    <span class="type-label-lg">Roulette</span>
+                    <span class="type-label-lg">룰렛</span>
                 </router-link>
                 <div class="nav__actions">
                     <button
@@ -60,16 +60,12 @@
                             alt=""
                         />
                     </button>
-                    <!-- Replace the '#' with your discord server's invite-->
-                    <a class="nav__icon" href="#">
-                        <img src="/assets/discord.svg" alt="Discord Logo" />
-                    </a>
                     <!-- List record submission form, add a link to replace the '#' when putting a link to your list submission form-->
                     <a
                         class="nav__cta type-label-lg"
-                        href="#"
+                        href="https://forms.gle/9iS3THkZGWw9rxf89"
                         target="_blank"
-                        >Submit Record</a
+                        >기록 신청</a
                     >
                 </div>
             </nav>
